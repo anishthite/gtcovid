@@ -1,25 +1,14 @@
-## Welcome to GitHub Pages
+## Georgia Tech Coronavirus Tracking
 
-You can use the [editor on GitHub](https://github.com/anishthite/gtcovid/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+So I've been following http://health.gatech.edu/coronavirus/health-alerts to see how safe campus is, but it's kinda hard to actually see what's going on simply from the tables.
+Let's vizualize it!
+(Note these charts are automatically updated every 12 hours)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### New Cases
 
-### Markdown
+An intuitive way to gauge contagiousness on campus is by looking at the new daily new cases:
+![Image](https://anishthite.github.io/gtcovid/gtdaily.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
 
 **Bold** and _Italic_ and `Code` text
 
