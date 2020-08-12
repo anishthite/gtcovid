@@ -11,7 +11,7 @@ An intuitive way to gauge contagiousness on campus is by looking at the new dail
 
 It's a bit noisy so we can smooth it out. Here's a 3-day moving average, as well as a weekly tally:
 
-<img src="https://anishthite.github.io/gtcovid/gtweekly.png" alt="drawing" width="5000"/>
+![Image](https://anishthite.github.io/gtcovid/gtweekly.png)
 ![Image](https://anishthite.github.io/gtcovid/gtdaily3day.png)
 
 
