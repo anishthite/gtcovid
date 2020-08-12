@@ -9,18 +9,19 @@ Let's vizualize it!
 An intuitive way to gauge contagiousness on campus is by looking at the new daily new cases:
 ![Image](https://anishthite.github.io/gtcovid/gtdaily.png)
 
+It's a bit noisy so we can smooth it out. Here's a 3-day moving average, as well as a weekly tally:
 
-**Bold** and _Italic_ and `Code` text
+![Image](https://anishthite.github.io/gtcovid/gtweekly.png)
 
-[Link](url) and ![Image](src)
-```
+![Image](https://anishthite.github.io/gtcovid/gtdaily3day.png)
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Jekyll Themes
+### Campus Impact
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/anishthite/gtcovid/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+
+
+
+I'll be updating this later with more charts...
+If you have any suggestsions open an issue or send me an email at anishthite@gmail.com
