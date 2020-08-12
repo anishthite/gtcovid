@@ -1,0 +1,32 @@
+!DOCTYPE html>
+<html>
+  <head>
+      <script type="text/javascript">
+          // set the pyodide files URL (packages.json, pyodide.asm.data etc)
+          window.languagePluginUrl = 'https://pyodide-cdn2.iodide.io/v0.15.0/full/';
+      </script>
+      <script src="https://pyodide-cdn2.iodide.io/v0.15.0/full/pyodide.js"></script>
+  </head>
+  <body>
+    Pyodide test page <br>
+    Open your browser console to see pyodide output
+    <script type="text/javascript">
+          languagePluginLoader.then(function () {
+          	pyodide.loadPackage(['numpy','pandas','matplotlib']).then(() => {
+				pyodide.runPython(`
+				import json
+				from js import window
+				print(window.fetch('http://health.gatech.edu/coronavirus/health-alerts').then(lambda response: response.text()))
+				import numpy as np
+				print(np.arange(0,1))
+
+				`)
+					
+				console.log('done')
+			});
+		  
+		  
+		  });
+    </script>
+  </body>
+</html>
