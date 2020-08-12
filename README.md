@@ -17,7 +17,13 @@ It's a bit noisy so we can smooth it out. Here's a 3-day moving average, as well
 
 
 ### Campus Impact
+What really matters is campus impact. We can filter out all of the non-campus impacted (the heuristic of removing all cases where "impact" is in the "Campus Impact description works for now). Here are all of the above charts with the Campus Impact cases overlaid. 
 
+![Image](https://anishthite.github.io/gtcovid/gtdailyboth.png)
+
+![Image](https://anishthite.github.io/gtcovid/gtweeklyboth.png)
+
+![Image](https://anishthite.github.io/gtcovid/gtdaily3dayboth.png)
 
 
 
